@@ -1,13 +1,62 @@
-# Core Algorithms
+# Core Algorithms [Classic, Numeric, and Set]
 
-Tests and implementations for algorithms commonly used in job interviews. See the full list in the [algorithms.md](algorithms.md) file.
+## Challenge Rating
 
-Base repository for the [Core Algorithms](http://jsdev.learnersguild.org/goals/123) goal.
+This goal will likely be within your ZPD if you...
 
-## Installation and Setup
+- Can write programs and tests using Node.js and npm
+- Can use problem decomposition to split difficult problems into smaller parts
+- Have used pseudocode as an intermediary step in writing a program
+- Are interested in common computer science algorithms
+- Are interested in critical thinking and problem solving
 
-_Fill this out_
+## Description
 
-## Usage and Examples
+This is a sub-goal of [Core Algorithms][core-algos]. Reference that goal for more description, context, and resources.
 
-_...and this_
+Complete **ONLY** the [Classic](https://github.com/GuildCrafts/core-algorithms/blob/master/algorithms.md#classic), [Numeric](https://github.com/GuildCrafts/core-algorithms/blob/master/algorithms.md#numeric), and [Set Operations](https://github.com/GuildCrafts/core-algorithms/blob/master/algorithms.md#set-operations) algorithms, not the Sorting/Searching or Graphing/Geometry. That's a [separate goal][core-algos-adv]. :)
+
+## Specifications
+
+- [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
+- [ ] Can run all tests with `npm test`.
+- [ ] `makeChange()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `makeChange()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `fizzBuzz()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `fizzBuzz()` exist.
+- [ ] `isPalindrome()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `isPalindrome()` exist with at least 2 unit tests using valid inputs.
+- [ ] `factorial()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `factorial()` exist with at least 2 unit tests using valid inputs.
+- [ ] `fibonacci()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `collatzConjecture()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setUnion()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setIntersection()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setComplement()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `setComplement()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setSymmetricDifference()` algorithm is implemented according to the description in [algorithms.md][algorithms-list].
+- [ ] Tests for `setSymmetricDifference()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] Repository includes a README file with basic installation and setup instructions.
+- [ ] All package dependencies are properly declared in `package.json`.
+- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [ ] Code uses a linter and there are no linting errors.
+- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [ ] Functions are small and serve a single purpose.
+- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+
+### Stretch
+
+Pick a _different_ programming language from JavaScript (e.g. Ruby, Swift, Python, C, Java...) and write tests & implementations for each.
+
+- [ ] Can run all non-JavaScript tests with a single command.
+- [ ] For each algorithm identified above, there is a test file with multiple unit tests for each algorithm  _in a language other than JavaScript_.
+- [ ] For each algorithm identified above, there is an implementation file with a correct implementation of the algorithm _in a language other than JavaScript_.
+
+
+[core-algos]: {{ site.url }}{% link _goals/123-Core_Algorithms.md %}
+[core-algos-adv]: {{ site.url }}{% link _goals/159-Core_Algorithms-Sorting_Searching_Graphing_and_Geometry.md %}
+[algorithms-list]: https://github.com/GuildCrafts/core-algorithms/blob/master/algorithms.md
