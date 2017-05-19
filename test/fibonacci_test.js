@@ -1,7 +1,7 @@
 import {expect} from 'chai'
 import Fibonacci from '../src/fibonacci'
 
-describe.only('Fibonacci()', function(){
+describe('Fibonacci()', function(){
   it('should be a function', function(){
     expect(Fibonacci).to.be.a('function')
   })
